@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.chrispy.dragonballrevival.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ServerPlayerEntityMixin",
+    "PlayerEntityMixin",
+    "LivingEntityMixin",
+    "InGameHudMixin",
+    "DamageTrackerMixin"
+  ],
+  "client": [
+    "MinecraftClientAccessor"
+  ],
+  "server": [
+],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
